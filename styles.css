@@ -1,0 +1,39 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    /*Remove all the default margin and padding in the body*/
+    margin: 0;
+    padding: 0;
+    /*Set the height of the body to full viewport height. Takes up full height of the visible screen*/
+    height: 100vh;
+    /*Turn the body to flex element. If the size of the layout changes then flexbox takes care of it*/
+    display: flex;
+    /*telling the flex items to stack them up like books from bottom to top*/
+    flex-direction: column;
+    /*Center the flex items along main axis(vertical axis)*/
+    justify-content: center;
+    /*Center the flex items along cross axis(horizontal axis)*/
+    align-items: center;
+    /*Setting background color*/
+    background-color: #D5E1EF;
+}
+.card{
+    width: 320px;
+    height: 470px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.card p.header{
+    font-weight: bold;
+    color: black;
+}
+p{
+    color: grey;
+}
